@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poetsen+One&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 20px;
+    padding: 20px;
+    background-color: #6bb8ff;
+    color: #333;
+}
+
+header, nav, section, footer {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-family: 'Exo', serif;
+    color: #333;
+    margin-left: 40%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+section ul {
+    justify-content: space-around;
+    margin-left:  2%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: 'Poetsen one', serif;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Exo', sans-serif;
+    color: #555;
+}
+
+#informacion-personal {
+    background-color: aliceblue;
+    margin: 2px 1px 1.5px;
+    margin-top: 0.8rem;
+    border: 0.2pt dashed #827d7d;
+    padding: 2% 1.2%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+                rgba(0, 0, 0, 0.12) 0px -12px 30px,
+                rgba(0, 0, 0, 0.12) 0px 4px 6px,
+                rgba(0, 0, 0, 0.17) 0px 12px 13px,
+                rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-bottom: 0.8rem;
+}
+
+section {
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.map{
+    margin-left: 30%;
+}
+
